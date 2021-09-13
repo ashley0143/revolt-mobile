@@ -19,7 +19,9 @@ then click on that apk lol
 
 # Legal bullcraps
 terms:https://revolt.chat/terms
+
 hi my fbi agent:https://revolt.chat/privacy
+
 AUP:https://revolt.chat/aup
 
 <h5>pls note:this is a unoffical app lol</h5>
