@@ -158,8 +158,7 @@ public class MainActivity extends Activity {
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N_MR1) {
 				//Create ShortcutManager
 				android.content.pm.ShortcutManager shortcutManager = getSystemService(android.content.pm.ShortcutManager.class);
-				// Create ShortcutInfo for chats
-				android.content.pm.ShortcutInfo chatShortcut = new android.content.pm.ShortcutInfo.Builder(MainActivity.this, "id1")
+ 				android.content.pm.ShortcutInfo chatShortcut = new android.content.pm.ShortcutInfo.Builder(MainActivity.this, "id1")
 				.setShortLabel("Settings lol")
 				.setRank(0)
 				.setLongLabel("Settings")
@@ -168,8 +167,7 @@ public class MainActivity extends Activity {
 				
 				.build();
 				
-				// Create ShortcutInfo for camera
-				android.content.pm.ShortcutInfo cameraShortcut = new android.content.pm.ShortcutInfo.Builder(MainActivity.this, "id2")
+ 				android.content.pm.ShortcutInfo cameraShortcut = new android.content.pm.ShortcutInfo.Builder(MainActivity.this, "id2")
 				.setShortLabel("See Ur friens")
 				.setRank(1)
 				.setLongLabel("My friens")
