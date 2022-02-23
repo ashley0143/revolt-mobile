@@ -1,4 +1,4 @@
-# REVOLT MOBILE APP (UNOFFICAL)
+# REVOLT MOBILE CLIENT
 
 so idk how to make a good readme so i will tell u funny facts
 
@@ -24,7 +24,7 @@ AUP:https://revolt.chat/aup
 
 
 
-# THIS IS A 3RD PARTY APP! (oh yeah)
+THIS IS A 3RD PARTY APP! (oh yeah)
 <h5>pls note:this is a unoffical mobile app lol</h5>
 <h5>im not a revolt developer,im just a girl who makes android apps n stuff.
 this is an 3RD PARTY APP and not an offical app.</h5>
