@@ -252,18 +252,18 @@ public class MainActivity extends Activity {
 				String cookies = CookieManager.getInstance().getCookie(url);
 				request.addRequestHeader("cookie", cookies);
 				request.addRequestHeader("User-Agent", userAgent);
-				request.setDescription("Dosya indiriliyor.");
+				request.setDescription("Downloading file...");
 				request.setTitle(URLUtil.guessFileName(url, contentDisposition, mimetype));
 				request.allowScanningByMediaScanner();
 				request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED); request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, URLUtil.guessFileName(url, contentDisposition, mimetype));
 				
 				DownloadManager manager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
 				manager.enqueue(request);
-				showMessage("Dosya indiriliyor");
+				showMessage("Downloading file...");
 				//Notif if success
 				BroadcastReceiver onComplete = new BroadcastReceiver() {
 					public void onReceive(Context ctxt, Intent intent) {
-						showMessage("indirme tamamlandi");
+						showMessage("Complate");
 						unregisterReceiver(this);
 					}};
 				registerReceiver(onComplete, new IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE));
