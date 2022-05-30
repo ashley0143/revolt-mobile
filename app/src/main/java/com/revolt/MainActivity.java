@@ -263,7 +263,7 @@ public class MainActivity extends Activity {
 				//Notif if success
 				BroadcastReceiver onComplete = new BroadcastReceiver() {
 					public void onReceive(Context ctxt, Intent intent) {
-						showMessage("Complate");
+						showMessage("Complete");
 						unregisterReceiver(this);
 					}};
 				registerReceiver(onComplete, new IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE));
